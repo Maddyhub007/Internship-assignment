@@ -1,0 +1,133 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/Header.module.css [app-client] (css) */
+.Header-module__5t_G2W__header {
+  background-color: var(--white);
+  z-index: 100;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 4px #0000001a;
+}
+
+.Header-module__5t_G2W__headerContent {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.Header-module__5t_G2W__logo {
+  align-items: center;
+  display: flex;
+}
+
+.Header-module__5t_G2W__logoBox {
+  background-color: var(--dark-green);
+  border-radius: 6px;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  line-height: 1;
+  display: flex;
+}
+
+.Header-module__5t_G2W__logoText {
+  color: var(--white);
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.Header-module__5t_G2W__logoSubtext {
+  color: var(--light-green);
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.Header-module__5t_G2W__headerRight {
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+
+.Header-module__5t_G2W__support {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.Header-module__5t_G2W__supportBadge {
+  background-color: var(--dark-green);
+  color: var(--white);
+  border-radius: 20px;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  font-weight: 700;
+  display: flex;
+}
+
+.Header-module__5t_G2W__availability {
+  font-size: 1rem;
+}
+
+.Header-module__5t_G2W__separator {
+  font-size: 1.2rem;
+}
+
+.Header-module__5t_G2W__phone {
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.Header-module__5t_G2W__downloadBtn {
+  background-color: var(--white);
+  border: 2px solid var(--dark-green);
+  color: var(--dark-green);
+  border-radius: 6px;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  font-weight: 600;
+  transition: all .3s;
+  display: flex;
+}
+
+.Header-module__5t_G2W__downloadBtn:hover {
+  background-color: var(--dark-green);
+  color: var(--white);
+}
+
+.Header-module__5t_G2W__profile {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.Header-module__5t_G2W__profileIcon {
+  background-color: var(--light-green);
+  width: 36px;
+  height: 36px;
+  color: var(--white);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .Header-module__5t_G2W__headerContent, .Header-module__5t_G2W__headerRight {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .Header-module__5t_G2W__phone {
+    display: none;
+  }
+
+  .Header-module__5t_G2W__downloadBtn {
+    padding: 6px 12px;
+    font-size: .875rem;
+  }
+}
+
+/*# sourceMappingURL=Desktop_My%20projects_yatri-cabs-website_app_components_Header_module_css_bad6b30c._.single.css.map*/

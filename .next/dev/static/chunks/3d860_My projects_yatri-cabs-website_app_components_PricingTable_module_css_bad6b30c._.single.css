@@ -1,0 +1,56 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/PricingTable.module.css [app-client] (css) */
+.PricingTable-module__vEtrRG__pricing {
+  background-color: var(--white);
+  padding: 60px 0;
+}
+
+.PricingTable-module__vEtrRG__tableWrapper {
+  overflow-x: auto;
+}
+
+.PricingTable-module__vEtrRG__table {
+  border-collapse: collapse;
+  background-color: var(--white);
+  border-radius: 8px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #0000001a;
+}
+
+.PricingTable-module__vEtrRG__headerCell {
+  background-color: var(--dark-green);
+  color: var(--white);
+  text-align: left;
+  text-transform: uppercase;
+  padding: 16px;
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+.PricingTable-module__vEtrRG__row:nth-child(odd) {
+  background-color: #e8f5e9;
+}
+
+.PricingTable-module__vEtrRG__row:nth-child(2n) {
+  background-color: var(--white);
+}
+
+.PricingTable-module__vEtrRG__cell {
+  color: var(--text-dark);
+  border-bottom: 1px solid var(--border-gray);
+  padding: 16px;
+  font-size: .9rem;
+}
+
+@media (max-width: 768px) {
+  .PricingTable-module__vEtrRG__pricing {
+    padding: 40px 0;
+  }
+
+  .PricingTable-module__vEtrRG__headerCell, .PricingTable-module__vEtrRG__cell {
+    padding: 12px 8px;
+    font-size: .75rem;
+  }
+}
+
+/*# sourceMappingURL=3d860_My%20projects_yatri-cabs-website_app_components_PricingTable_module_css_bad6b30c._.single.css.map*/

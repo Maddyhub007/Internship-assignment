@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/My projects/yatri-cabs-website/app/components/OperationalCities.module.css"],"sourcesContent":[".cities {\n  padding: 24px 0;\n  background-color: var(--white);\n  border-top: 1px solid var(--border-gray);\n  border-bottom: 1px solid var(--border-gray);\n}\n\n.citiesBar {\n  display: flex;\n  align-items: center;\n  gap: 24px;\n  flex-wrap: wrap;\n}\n\n.label {\n  font-weight: 700;\n  color: var(--text-dark);\n  font-size: 1rem;\n}\n\n.cityList {\n  display: flex;\n  gap: 20px;\n  flex-wrap: wrap;\n  flex: 1;\n}\n\n.city {\n  color: var(--text-dark);\n  font-size: 0.95rem;\n  padding: 0 12px;\n  border-right: 2px solid var(--border-gray);\n}\n\n.city:last-child {\n  border-right: none;\n}\n\n@media (max-width: 768px) {\n  .citiesBar {\n    flex-direction: column;\n    align-items: flex-start;\n  }\n\n  .cityList {\n    flex-direction: column;\n    gap: 8px;\n  }\n\n  .city {\n    border-right: none;\n    padding: 0;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;;;AAOA;;;;;;AAMA;;;;;;;AAOA;;;;;;;AAOA;;;;AAIA;EACE;;;;;EAKA;;;;;EAKA"}}]
+}

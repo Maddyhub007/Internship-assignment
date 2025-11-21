@@ -1,0 +1,97 @@
+.whyYatri {
+  padding: 80px 0;
+  background-color: var(--white);
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 60px;
+  color: var(--text-dark);
+  font-weight: 700;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.carImage img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.feature {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-light);
+  border-radius: 12px;
+}
+
+.featureContent {
+  flex: 1;
+}
+
+.featureTitle {
+  color: var(--primary-green);
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.featureDesc {
+  color: var(--text-gray);
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 968px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .whyYatri {
+    padding: 60px 0;
+  }
+
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+
+  .feature {
+    gap: 16px;
+  }
+
+  .featureIcon {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+  }
+}

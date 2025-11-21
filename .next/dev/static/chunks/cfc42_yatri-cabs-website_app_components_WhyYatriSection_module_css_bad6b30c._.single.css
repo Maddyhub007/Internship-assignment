@@ -1,0 +1,100 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/WhyYatriSection.module.css [app-client] (css) */
+.WhyYatriSection-module__0PqU4q__whyYatri {
+  background-color: var(--white);
+  padding: 80px 0;
+}
+
+.WhyYatriSection-module__0PqU4q__sectionTitle {
+  text-align: center;
+  color: var(--text-dark);
+  margin-bottom: 60px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.WhyYatriSection-module__0PqU4q__content {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+  display: grid;
+}
+
+.WhyYatriSection-module__0PqU4q__carImage img {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.WhyYatriSection-module__0PqU4q__features {
+  flex-direction: column;
+  gap: 32px;
+  display: flex;
+}
+
+.WhyYatriSection-module__0PqU4q__feature {
+  align-items: flex-start;
+  gap: 20px;
+  display: flex;
+}
+
+.WhyYatriSection-module__0PqU4q__featureIcon {
+  background-color: var(--bg-light);
+  border-radius: 12px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  font-size: 2.5rem;
+  display: flex;
+}
+
+.WhyYatriSection-module__0PqU4q__featureContent {
+  flex: 1;
+}
+
+.WhyYatriSection-module__0PqU4q__featureTitle {
+  color: var(--primary-green);
+  margin-bottom: 8px;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.WhyYatriSection-module__0PqU4q__featureDesc {
+  color: var(--text-gray);
+  font-size: .9rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 968px) {
+  .WhyYatriSection-module__0PqU4q__content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .WhyYatriSection-module__0PqU4q__sectionTitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .WhyYatriSection-module__0PqU4q__whyYatri {
+    padding: 60px 0;
+  }
+
+  .WhyYatriSection-module__0PqU4q__sectionTitle {
+    font-size: 1.75rem;
+  }
+
+  .WhyYatriSection-module__0PqU4q__feature {
+    gap: 16px;
+  }
+
+  .WhyYatriSection-module__0PqU4q__featureIcon {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=cfc42_yatri-cabs-website_app_components_WhyYatriSection_module_css_bad6b30c._.single.css.map*/

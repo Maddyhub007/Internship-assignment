@@ -1,0 +1,38 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/IntroSection.module.css [app-client] (css) */
+.IntroSection-module__WncgYq__intro {
+  background-color: var(--bg-light);
+  padding: 60px 0;
+}
+
+.IntroSection-module__WncgYq__title {
+  text-align: center;
+  color: var(--text-dark);
+  margin-bottom: 24px;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.IntroSection-module__WncgYq__description {
+  text-align: center;
+  color: var(--text-gray);
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .IntroSection-module__WncgYq__intro {
+    padding: 40px 0;
+  }
+
+  .IntroSection-module__WncgYq__title {
+    font-size: 1.25rem;
+  }
+
+  .IntroSection-module__WncgYq__description {
+    font-size: .875rem;
+  }
+}
+
+/*# sourceMappingURL=3d860_My%20projects_yatri-cabs-website_app_components_IntroSection_module_css_bad6b30c._.single.css.map*/

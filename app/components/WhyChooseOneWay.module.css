@@ -1,0 +1,152 @@
+.whyChoose {
+  padding: 80px 0;
+  background-color: var(--bg-light);
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--primary-green);
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.benefitsLeft,
+.benefitsRight {
+  background-color: var(--white);
+  padding: 24px;
+  border-radius: 12px;
+  border: 2px solid var(--border-gray);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.listItem {
+  display: flex;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.bullet {
+  color: var(--primary-green);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.illustration {
+  width: 300px;
+}
+
+.illustration img {
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  background-color: var(--dark-green);
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 48px;
+}
+
+.bannerText {
+  color: var(--white);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.highlight {
+  color: var(--light-green);
+  font-weight: 700;
+}
+
+.exploreSection {
+  background-color: var(--white);
+  padding: 40px;
+  border-radius: 12px;
+  border: 3px solid var(--primary-green);
+}
+
+.exploreTitle {
+  color: var(--dark-green);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.explorePoints {
+  background-color: rgba(132, 204, 22, 0.1);
+  padding: 32px;
+  border-radius: 8px;
+  border: 2px dotted var(--primary-green);
+}
+
+.pointsList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pointsList li {
+  color: var(--text-dark);
+  line-height: 1.7;
+  font-size: 0.95rem;
+  padding-left: 24px;
+  position: relative;
+}
+
+.pointsList li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--primary-green);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 968px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .illustration {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .whyChoose {
+    padding: 60px 0;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .exploreSection {
+    padding: 24px;
+  }
+
+  .explorePoints {
+    padding: 20px;
+  }
+}

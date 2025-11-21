@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/My projects/yatri-cabs-website/app/components/IntroSection.module.css"],"sourcesContent":[".intro {\n  background-color: var(--bg-light);\n  padding: 60px 0;\n}\n\n.title {\n  font-size: 1.75rem;\n  text-align: center;\n  margin-bottom: 24px;\n  color: var(--text-dark);\n  font-weight: 700;\n}\n\n.description {\n  text-align: center;\n  color: var(--text-gray);\n  max-width: 900px;\n  margin: 0 auto;\n  line-height: 1.8;\n  font-size: 1rem;\n}\n\n@media (max-width: 768px) {\n  .intro {\n    padding: 40px 0;\n  }\n\n  .title {\n    font-size: 1.25rem;\n  }\n\n  .description {\n    font-size: 0.875rem;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;;;;AAQA;;;;;;;;;AASA;EACE;;;;EAIA;;;;EAIA"}}]
+}

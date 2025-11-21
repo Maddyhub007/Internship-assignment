@@ -1,0 +1,50 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/RouteAvailability.module.css [app-client] (css) */
+.RouteAvailability-module__FrHyca__routes {
+  background-color: var(--white);
+  padding: 60px 0;
+}
+
+.RouteAvailability-module__FrHyca__grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  display: grid;
+}
+
+.RouteAvailability-module__FrHyca__card {
+  text-align: center;
+  background-color: var(--bg-light);
+  border-radius: 12px;
+  padding: 32px;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.RouteAvailability-module__FrHyca__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px #0000001a;
+}
+
+.RouteAvailability-module__FrHyca__icon {
+  margin-bottom: 20px;
+  font-size: 3.5rem;
+}
+
+.RouteAvailability-module__FrHyca__title {
+  color: var(--text-dark);
+  margin-bottom: 16px;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.RouteAvailability-module__FrHyca__description {
+  color: var(--text-gray);
+  font-size: .9rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 968px) {
+  .RouteAvailability-module__FrHyca__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=cfc42_yatri-cabs-website_app_components_RouteAvailability_module_css_bad6b30c._.single.css.map*/

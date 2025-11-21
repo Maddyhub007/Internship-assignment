@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/My projects/yatri-cabs-website/app/components/ACBusComparison.module.css"],"sourcesContent":[".comparison {\n  padding: 60px 0;\n  background-color: var(--bg-light);\n}\n\n.content {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 60px;\n  align-items: center;\n}\n\n.textSection {\n  padding: 32px;\n  background-color: var(--white);\n  border-radius: 12px;\n}\n\n.title {\n  font-size: 1.5rem;\n  font-weight: 700;\n  color: var(--text-dark);\n  margin-bottom: 24px;\n  line-height: 1.4;\n}\n\n.highlight {\n  color: var(--light-green);\n}\n\n.description {\n  color: var(--text-gray);\n  line-height: 1.8;\n  font-size: 0.95rem;\n}\n\n.illustration img {\n  width: 100%;\n  height: auto;\n  border-radius: 12px;\n}\n\n@media (max-width: 968px) {\n  .content {\n    grid-template-columns: 1fr;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;;;AAOA;;;;;;AAMA;;;;;;;;AAQA;;;;AAIA;;;;;;AAMA;;;;;;AAMA;EACE"}}]
+}

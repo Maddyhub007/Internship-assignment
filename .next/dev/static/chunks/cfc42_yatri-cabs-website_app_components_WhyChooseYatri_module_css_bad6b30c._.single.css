@@ -1,0 +1,74 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/WhyChooseYatri.module.css [app-client] (css) */
+.WhyChooseYatri-module__2FfYuq__whyChooseYatri {
+  background-color: var(--bg-light);
+  padding: 80px 0;
+}
+
+.WhyChooseYatri-module__2FfYuq__banner {
+  background-color: var(--primary-green);
+  border-radius: 8px;
+  margin-bottom: 48px;
+  padding: 20px;
+}
+
+.WhyChooseYatri-module__2FfYuq__bannerTitle {
+  color: var(--white);
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.WhyChooseYatri-module__2FfYuq__content {
+  background-color: var(--white);
+  border: 3px solid var(--primary-green);
+  border-radius: 12px;
+  padding: 48px;
+}
+
+.WhyChooseYatri-module__2FfYuq__reasons {
+  flex-direction: column;
+  gap: 32px;
+  display: flex;
+}
+
+.WhyChooseYatri-module__2FfYuq__reason {
+  padding-left: 24px;
+}
+
+.WhyChooseYatri-module__2FfYuq__reasonTitle {
+  color: var(--text-dark);
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.WhyChooseYatri-module__2FfYuq__bullet {
+  color: var(--primary-green);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.WhyChooseYatri-module__2FfYuq__reasonDesc {
+  color: var(--text-gray);
+  font-size: .95rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .WhyChooseYatri-module__2FfYuq__whyChooseYatri {
+    padding: 60px 0;
+  }
+
+  .WhyChooseYatri-module__2FfYuq__content {
+    padding: 24px;
+  }
+
+  .WhyChooseYatri-module__2FfYuq__bannerTitle {
+    font-size: 1.25rem;
+  }
+}
+
+/*# sourceMappingURL=cfc42_yatri-cabs-website_app_components_WhyChooseYatri_module_css_bad6b30c._.single.css.map*/

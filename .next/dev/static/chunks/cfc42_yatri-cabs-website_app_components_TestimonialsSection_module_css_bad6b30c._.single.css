@@ -1,0 +1,109 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/TestimonialsSection.module.css [app-client] (css) */
+.TestimonialsSection-module__MA6dvW__testimonials {
+  background-color: var(--white);
+  padding: 80px 0;
+}
+
+.TestimonialsSection-module__MA6dvW__header {
+  background-color: var(--dark-green);
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
+.TestimonialsSection-module__MA6dvW__title {
+  color: var(--white);
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.TestimonialsSection-module__MA6dvW__grid {
+  background-color: var(--dark-green);
+  border-radius: 0 0 8px 8px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  padding: 20px;
+  display: grid;
+}
+
+.TestimonialsSection-module__MA6dvW__card {
+  background-color: var(--white);
+  border-right: 1px solid var(--border-gray);
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  display: flex;
+}
+
+.TestimonialsSection-module__MA6dvW__card:last-child {
+  border-right: none;
+}
+
+.TestimonialsSection-module__MA6dvW__stars {
+  gap: 4px;
+  display: flex;
+}
+
+.TestimonialsSection-module__MA6dvW__star {
+  color: #fbbf24;
+  font-size: 1.25rem;
+}
+
+.TestimonialsSection-module__MA6dvW__text {
+  color: var(--text-dark);
+  flex: 1;
+  font-size: .875rem;
+  line-height: 1.6;
+}
+
+.TestimonialsSection-module__MA6dvW__author {
+  margin-top: auto;
+}
+
+.TestimonialsSection-module__MA6dvW__name {
+  color: var(--text-dark);
+  margin-bottom: 4px;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.TestimonialsSection-module__MA6dvW__location {
+  color: var(--text-gray);
+  font-size: .8rem;
+}
+
+@media (max-width: 1200px) {
+  .TestimonialsSection-module__MA6dvW__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .TestimonialsSection-module__MA6dvW__card {
+    border-right: none;
+    border-bottom: 1px solid var(--border-gray);
+  }
+
+  .TestimonialsSection-module__MA6dvW__card:nth-child(odd) {
+    border-right: 1px solid var(--border-gray);
+  }
+
+  .TestimonialsSection-module__MA6dvW__card:last-child, .TestimonialsSection-module__MA6dvW__card:nth-last-child(2) {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .TestimonialsSection-module__MA6dvW__testimonials {
+    padding: 60px 0;
+  }
+
+  .TestimonialsSection-module__MA6dvW__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .TestimonialsSection-module__MA6dvW__card, .TestimonialsSection-module__MA6dvW__card:nth-child(odd) {
+    border-right: none;
+  }
+}
+
+/*# sourceMappingURL=cfc42_yatri-cabs-website_app_components_TestimonialsSection_module_css_bad6b30c._.single.css.map*/

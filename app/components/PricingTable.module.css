@@ -1,0 +1,54 @@
+.pricing {
+  padding: 60px 0;
+  background-color: var(--white);
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.headerCell {
+  background-color: var(--dark-green);
+  color: var(--white);
+  padding: 16px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.row:nth-child(odd) {
+  background-color: #e8f5e9;
+}
+
+.row:nth-child(even) {
+  background-color: var(--white);
+}
+
+.cell {
+  padding: 16px;
+  color: var(--text-dark);
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--border-gray);
+}
+
+@media (max-width: 768px) {
+  .pricing {
+    padding: 40px 0;
+  }
+
+  .headerCell,
+  .cell {
+    padding: 12px 8px;
+    font-size: 0.75rem;
+  }
+}

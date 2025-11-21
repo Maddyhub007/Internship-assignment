@@ -1,0 +1,88 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/HeroSection.module.css [app-client] (css) */
+.HeroSection-module__qTe9qa__hero {
+  background-image: url("/images/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  padding: 60px 0 80px;
+  position: relative;
+}
+
+.HeroSection-module__qTe9qa__heroOverlay {
+  z-index: 1;
+  background: #0006;
+  position: absolute;
+  inset: 0;
+}
+
+.HeroSection-module__qTe9qa__heroContent {
+  z-index: 2;
+  position: relative;
+}
+
+.HeroSection-module__qTe9qa__heroTitle {
+  color: var(--white);
+  text-shadow: 2px 2px 4px #00000080;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.HeroSection-module__qTe9qa__highlight {
+  color: var(--light-green);
+}
+
+.HeroSection-module__qTe9qa__features {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+  display: grid;
+}
+
+.HeroSection-module__qTe9qa__featureCard {
+  text-align: center;
+  background-color: #fffffff2;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.HeroSection-module__qTe9qa__featureTitle {
+  color: var(--text-dark);
+  margin-bottom: 8px;
+  font-size: 1.25rem;
+}
+
+.HeroSection-module__qTe9qa__featureText {
+  color: var(--text-gray);
+  font-size: .875rem;
+}
+
+.HeroSection-module__qTe9qa__appButtons {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+  display: flex;
+}
+
+.HeroSection-module__qTe9qa__appButtons img {
+  width: auto;
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  .HeroSection-module__qTe9qa__hero {
+    min-height: 500px;
+    padding: 40px 0 60px;
+  }
+
+  .HeroSection-module__qTe9qa__heroTitle {
+    font-size: 1.75rem;
+  }
+
+  .HeroSection-module__qTe9qa__features {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=3d860_My%20projects_yatri-cabs-website_app_components_HeroSection_module_css_bad6b30c._.single.css.map*/

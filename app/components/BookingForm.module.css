@@ -1,0 +1,172 @@
+.bookingCard {
+  background-color: var(--white);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tabs {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.tab {
+  padding: 10px 24px;
+  background-color: transparent;
+  color: var(--text-gray);
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.tabActive {
+  background-color: var(--primary-green);
+  color: var(--white);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tripTypeToggle {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.toggleBtn {
+  padding: 8px 20px;
+  background-color: var(--bg-light);
+  color: var(--text-gray);
+  border: 2px solid var(--border-gray);
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.toggleActive {
+  background-color: var(--light-green);
+  color: var(--white);
+  border-color: var(--light-green);
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.locationInputs {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 12px;
+  align-items: end;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  text-transform: uppercase;
+}
+
+.input {
+  padding: 12px;
+  border: 1px solid var(--border-gray);
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary-green);
+}
+
+.autocompleteWrapper {
+  position: relative;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: var(--white);
+  border: 1px solid var(--border-gray);
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestionItem {
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.suggestionItem:hover {
+  background-color: var(--bg-light);
+}
+
+.swapBtn {
+  width: 40px;
+  height: 40px;
+  background-color: var(--white);
+  border: 2px solid var(--primary-green);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-green);
+  transition: all 0.3s ease;
+}
+
+.swapBtn:hover {
+  background-color: var(--primary-green);
+  color: var(--white);
+}
+
+.submitBtn {
+  background-color: var(--primary-green);
+  color: var(--white);
+  padding: 14px 32px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+
+.submitBtn:hover {
+  background-color: var(--dark-green);
+}
+
+@media (max-width: 768px) {
+  .locationInputs {
+    grid-template-columns: 1fr;
+  }
+
+  .swapBtn {
+    display: none;
+  }
+
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+}

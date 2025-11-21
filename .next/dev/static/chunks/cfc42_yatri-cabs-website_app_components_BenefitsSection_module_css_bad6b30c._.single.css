@@ -1,0 +1,50 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/BenefitsSection.module.css [app-client] (css) */
+.BenefitsSection-module__4kBqBa__benefits {
+  background-color: var(--white);
+  padding: 60px 0;
+}
+
+.BenefitsSection-module__4kBqBa__grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  display: grid;
+}
+
+.BenefitsSection-module__4kBqBa__card {
+  text-align: center;
+  background-color: var(--bg-light);
+  border-radius: 12px;
+  padding: 32px;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.BenefitsSection-module__4kBqBa__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px #0000001a;
+}
+
+.BenefitsSection-module__4kBqBa__icon {
+  margin-bottom: 20px;
+  font-size: 4rem;
+}
+
+.BenefitsSection-module__4kBqBa__cardTitle {
+  color: var(--text-dark);
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.BenefitsSection-module__4kBqBa__cardDesc {
+  color: var(--text-gray);
+  font-size: .9rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 968px) {
+  .BenefitsSection-module__4kBqBa__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=cfc42_yatri-cabs-website_app_components_BenefitsSection_module_css_bad6b30c._.single.css.map*/

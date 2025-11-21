@@ -1,0 +1,80 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/Footer.module.css [app-client] (css) */
+.Footer-module__IYVf8a__footer {
+  background-color: #1a1a1a;
+  padding: 40px 0 20px;
+}
+
+.Footer-module__IYVf8a__content {
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 32px;
+  display: flex;
+}
+
+.Footer-module__IYVf8a__brand {
+  align-items: center;
+  display: flex;
+}
+
+.Footer-module__IYVf8a__logoBox {
+  background-color: var(--dark-green);
+  border-radius: 6px;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  line-height: 1;
+  display: flex;
+}
+
+.Footer-module__IYVf8a__logoText {
+  color: var(--white);
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.Footer-module__IYVf8a__logoSubtext {
+  color: var(--light-green);
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.Footer-module__IYVf8a__nav {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  display: flex;
+}
+
+.Footer-module__IYVf8a__link {
+  color: var(--white);
+  font-size: .95rem;
+  transition: color .3s;
+}
+
+.Footer-module__IYVf8a__link:hover {
+  color: var(--light-green);
+}
+
+.Footer-module__IYVf8a__copyright {
+  text-align: center;
+  border-top: 1px solid #ffffff1a;
+  padding-top: 24px;
+}
+
+.Footer-module__IYVf8a__copyright p {
+  color: #fff9;
+  font-size: .875rem;
+}
+
+@media (max-width: 768px) {
+  .Footer-module__IYVf8a__nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+/*# sourceMappingURL=Desktop_My%20projects_yatri-cabs-website_app_components_Footer_module_css_bad6b30c._.single.css.map*/

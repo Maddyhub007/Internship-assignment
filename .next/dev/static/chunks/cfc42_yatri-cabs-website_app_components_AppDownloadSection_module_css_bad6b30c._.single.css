@@ -1,0 +1,154 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/AppDownloadSection.module.css [app-client] (css) */
+.AppDownloadSection-module__zL6ZOW__appDownload {
+  background-color: var(--bg-light);
+  padding: 80px 0;
+}
+
+.AppDownloadSection-module__zL6ZOW__content {
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 60px;
+  display: grid;
+}
+
+.AppDownloadSection-module__zL6ZOW__mobileImage {
+  width: 200px;
+}
+
+.AppDownloadSection-module__zL6ZOW__mobileImage img {
+  width: 100%;
+  height: auto;
+}
+
+.AppDownloadSection-module__zL6ZOW__info {
+  text-align: center;
+}
+
+.AppDownloadSection-module__zL6ZOW__title {
+  color: var(--text-dark);
+  margin-bottom: 24px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.AppDownloadSection-module__zL6ZOW__brand {
+  color: var(--light-green);
+}
+
+.AppDownloadSection-module__zL6ZOW__promo {
+  color: var(--text-dark);
+  margin-bottom: 24px;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.AppDownloadSection-module__zL6ZOW__code {
+  color: var(--primary-green);
+  font-weight: 700;
+}
+
+.AppDownloadSection-module__zL6ZOW__discount {
+  color: var(--primary-green);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.AppDownloadSection-module__zL6ZOW__downloadText {
+  color: var(--text-dark);
+  margin-bottom: 16px;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.AppDownloadSection-module__zL6ZOW__buttons {
+  justify-content: center;
+  gap: 16px;
+  display: flex;
+}
+
+.AppDownloadSection-module__zL6ZOW__badge {
+  cursor: pointer;
+  width: auto;
+  height: 50px;
+  transition: transform .3s;
+}
+
+.AppDownloadSection-module__zL6ZOW__badge:hover {
+  transform: scale(1.05);
+}
+
+.AppDownloadSection-module__zL6ZOW__driverSection {
+  background-color: var(--white);
+  text-align: center;
+  border-radius: 12px;
+  max-width: 300px;
+  padding: 32px;
+  box-shadow: 0 4px 12px #0000001a;
+}
+
+.AppDownloadSection-module__zL6ZOW__driverTitle {
+  color: var(--text-dark);
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.AppDownloadSection-module__zL6ZOW__highlight {
+  color: var(--light-green);
+}
+
+.AppDownloadSection-module__zL6ZOW__driverText {
+  color: var(--text-gray);
+  margin-bottom: 24px;
+  font-size: .9rem;
+  line-height: 1.7;
+}
+
+.AppDownloadSection-module__zL6ZOW__downloadAppBtn {
+  background-color: var(--primary-green);
+  color: var(--white);
+  border-radius: 6px;
+  width: 100%;
+  padding: 12px 24px;
+  font-weight: 700;
+  transition: background-color .3s;
+}
+
+.AppDownloadSection-module__zL6ZOW__downloadAppBtn:hover {
+  background-color: var(--dark-green);
+}
+
+@media (max-width: 968px) {
+  .AppDownloadSection-module__zL6ZOW__content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .AppDownloadSection-module__zL6ZOW__mobileImage {
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  .AppDownloadSection-module__zL6ZOW__driverSection {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .AppDownloadSection-module__zL6ZOW__appDownload {
+    padding: 60px 0;
+  }
+
+  .AppDownloadSection-module__zL6ZOW__title {
+    font-size: 1.5rem;
+  }
+
+  .AppDownloadSection-module__zL6ZOW__buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=cfc42_yatri-cabs-website_app_components_AppDownloadSection_module_css_bad6b30c._.single.css.map*/

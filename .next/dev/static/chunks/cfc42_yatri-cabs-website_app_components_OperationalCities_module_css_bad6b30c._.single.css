@@ -1,0 +1,57 @@
+/* [project]/Desktop/My projects/yatri-cabs-website/app/components/OperationalCities.module.css [app-client] (css) */
+.OperationalCities-module__USoU3G__cities {
+  background-color: var(--white);
+  border-top: 1px solid var(--border-gray);
+  border-bottom: 1px solid var(--border-gray);
+  padding: 24px 0;
+}
+
+.OperationalCities-module__USoU3G__citiesBar {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  display: flex;
+}
+
+.OperationalCities-module__USoU3G__label {
+  color: var(--text-dark);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.OperationalCities-module__USoU3G__cityList {
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 20px;
+  display: flex;
+}
+
+.OperationalCities-module__USoU3G__city {
+  color: var(--text-dark);
+  border-right: 2px solid var(--border-gray);
+  padding: 0 12px;
+  font-size: .95rem;
+}
+
+.OperationalCities-module__USoU3G__city:last-child {
+  border-right: none;
+}
+
+@media (max-width: 768px) {
+  .OperationalCities-module__USoU3G__citiesBar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .OperationalCities-module__USoU3G__cityList {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .OperationalCities-module__USoU3G__city {
+    border-right: none;
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=cfc42_yatri-cabs-website_app_components_OperationalCities_module_css_bad6b30c._.single.css.map*/
